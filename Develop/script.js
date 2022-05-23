@@ -52,7 +52,7 @@ var consolidatePassword = function (){
   if(numericPromp){
     characterTypes += "0123456789";
   }
-  var specialCharPromp = confirm("Do you want to include Special !#$%&'()*+,-./:;<=>?@[\]^_`{|}~?");
+  var specialCharPromp = confirm("Do you want to include Special characters !#$%&'()*+,-./:;<=>?@[\]^_`{|}~?");
   // if yess add to characterTypes
   if(specialCharPromp){
     characterTypes += "^$*.[]{}()?-\"!@#%&/\\,><':;|_~`";
